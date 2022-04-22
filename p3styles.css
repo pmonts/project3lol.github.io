@@ -1,0 +1,123 @@
+/******w*************
+    
+    Project 3 Stylesheet
+    Name: Patricia
+    Date: February 27, 2022
+    Description:Project 1
+
+********************/
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+#homepage 
+{
+    font-family: verdana;
+    margin: auto;
+    width: 45%;
+    border: 2px solid #9E9E9E;
+    border-radius: 15px;
+    box-shadow: 5px, 5px, 15px, 5px;
+    padding: 8px;
+    background-image: url('Images/Background.jpg');
+}
+
+#productspage 
+{
+    font-family: verdana;
+    margin: auto;
+    width: 45%;
+    border: 2px solid #9E9E9E;
+    border-radius: 15px;
+    box-shadow: 5px, 5px, 15px, 5px;
+    padding: 8px;
+    background-image: url('Images/Background2.jpg');
+}
+
+#contactus 
+{
+    font-family: verdana;
+    margin: auto;
+    width: 45%;
+    border: 2px solid #9E9E9E;
+    border-radius: 15px;
+    box-shadow: 5px, 5px, 15px, 5px;
+    padding: 8px;
+    background-image: url('Images/ionia.jpg');
+}
+
+
+header
+{
+    text-align: center;
+    background-color: lavender;
+}
+
+#footer
+{
+    margin: 0px auto;
+    width: fit-content;
+}
+
+#footer ul li
+{
+    text-align: center;
+    display: inline;
+    background-color: lightpink;
+    font-size: 0.55em;
+}
+
+main
+{
+    /*display: flex;*/
+    background-color: white;
+    text-align: center;
+}
+
+#contactform
+{
+    /*display: flex;*/
+    background-color: white;
+    text-align: center;
+}
+
+p img
+{
+    height: 300px;
+    width: 400px;
+}
+
+#homenav ul li
+{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+}
+
+#homenav 
+{
+    background-color: lightpink;
+}
+
+#irelia
+{
+    display: inline-flex;
+}
+
+#irelia p img
+{
+    height: 200px;
+}
+
+#nami p img
+{
+    height: 200px;
+}
+
+#ahri p img
+{
+    height: 200px;
+}

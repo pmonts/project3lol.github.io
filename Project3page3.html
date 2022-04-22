@@ -1,0 +1,82 @@
+<!-------w-----------
+
+    Project 3
+    Name: Patricia Montemayor
+    Date: February 27, 2022
+    Description: Project 3
+
+-------------------->
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Project 1 Patricia Montemayor</title>
+    <link rel="stylesheet" type="text/css" href="p3styles.css">
+    <script src="Project3page3validation.js"></script>
+    <meta charset="utf-8">
+</head>
+<body id="contactus">
+    <header>
+        <h1>
+            League of Legends Fan Page
+        </h1>
+            <div id="homenav">
+                     
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Project3page2.html">PRODUCTS</a></li>
+                        <li><a href="Project3page3.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                    
+            </div>
+    </header>
+    <form id="contactform" 
+          action="index.html">
+        <fieldset id="contactinfo">
+            <div class="left">
+                <a><h3>Send us your contact information</h3></a>
+                <ul>
+                    <li>
+                        <label for="fullname">Full Name</label>
+                        <input id="fullname" name="fullname" type="text" />
+                        <p class="shippingError error" id="fullname_error">* Required field</p>
+                    </li>
+                    <li>
+                        <label for="phonenumber">Phone Number</label>
+                        <input id="phonenumber" name="phonenumber" type="number" />
+                        <p class="shippingError error" id="phonenumber_error">* Required
+                         field</p>
+                         <p class="shippingError error" id="invalidNumber_error">* Invalid Phone Number</p>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" />
+                        <p class="shippingError error" id="email_error">* Required field</p>
+                        <p class="shippingError error" id="emailFormat_error">* Invalid email address</p>
+                    </li>
+                    <li>
+                        <label for="comments">Comments</label>
+                        <input id="comments" name="comments" type="text" />
+                        <p class="shippingError error" id="comments_error">* Required field</p>
+                    </li>
+
+                </ul>
+            </div>
+                <p class="center">
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="reset">Reset</button>
+                </p>
+        </fieldset>
+    </form>
+    <footer>
+        <div id="footer">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Project3page2.html">PRODUCTS</a></li>
+                    <li><a href="Project3page3.html">CONTACT US</a></li>
+                </ul>
+            </nav>                  
+    </footer>
+</body>
